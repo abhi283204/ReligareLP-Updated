@@ -1,0 +1,517 @@
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../font/Roboto-Light.eot') format('embedded-opentype'),
+  url('../font/Roboto-Light.ttf') format('truetype'),
+  url('../font/Roboto-Light.woff')  format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../font/Lato-Regular.eot') format('embedded-opentype'),
+  url('../font/Lato-Regular.ttf') format('truetype'),
+  url('../font/Lato-Regular.woff')  format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{max-width: 100%;
+  overflow-x: hidden;}
+body{overflow-x: hidden;}
+*{margin: 0; padding: 0; font-family:'Lato', sans-serif;}
+img{max-width: 100%;}
+h1{font-family: 'Oswald', sans-serif; font-weight:300;}
+h2{text-align: center; font-size: 22px; font-weight: 200; }
+h2 span{ color: #2da54b; font-size: 18px; text-transform: uppercase; font-weight: 600;}
+h2 .head{margin-top: 10px; display: block; }
+h3{font-family: 'Lato', sans-serif;text-transform:uppercase; font-size:20px; line-height:26px;}
+p{font-family: 'Lato', sans-serif; font-size:16px;}
+
+.mb20{margin-bottom: 20px;}
+.mr0{margin-right:0px !important;}
+.pr0{padding-right:0px;}
+.pl0{padding-left:0px;}
+ 
+/*******************Header section Starts*********************************/
+
+header{width: 100%; float: left; border-bottom: 3px solid #0cb24d;}
+header .banner{width: 100%; float: left; position: relative;}
+header .banner .logo{position: absolute; top: 30px; left: 30px;}
+
+
+.banner-secTab{display:none;}
+
+.moblogo .bannerimg{display:none !important;}
+/*******************Form section Starts*********************************/
+header .tradeow_form{width: 100%; float: left; background: #0cb24d; padding: 30px; min-height: 732px;}
+header .tradeow_form .formStyle { background-color: #ffffff; font-family: 'Lato', sans-serif !important; padding: 25px 20px; width: 100%; margin-bottom: 10px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #ecf0f1; border-top-style: none; border-right-style: none; border-left-style: none; font-size: 1.1em;font-weight: 100;color: #4b4b4b; }
+header .tradeow_form h1{text-transform: uppercase;font-family: 'Oswald', sans-serif; font-size: 30px; line-height: 42px;}
+header .tradeow_form h1 span{font-weight:500;color: #0cb24d;font-family: 'Oswald', sans-serif; font-size: 42px;}
+header .tradeow_form .form{background: #fff; padding: 20px;min-height: 670px;border-radius: 10px;}
+header .tradeow_form .form .formButton {float: right;background-color:#ffffff;display:inline-block;color:#262626;font-size:28px;font-weight: 500;padding:6px 24px;margin-top: 15px;margin-right: 60px;text-decoration:none;}
+header .tradeow_form .form .formButton:hover {background-color: #ffffff;color:#262626;}
+header .tradeow_form .form .formButton:active {position:relative; top:3px;}
+/*To remove the outline that appears on clicking the input textbox*/
+input:focus {
+  outline: none;
+}
+/* To format the placeholder text color */
+::-webkit-input-placeholder {
+   color: #262626;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #262626;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #262626;  
+}
+:-ms-input-placeholder {  
+   color: #262626;  
+}
+header .tradeow_form .form button{width:100%;padding: 10px 0;background:#ede90a; border: none;font-size:18px;font-weight: bold;border-radius: 10px; text-transform: uppercase; margin-top: 20px; }
+header .tradeow_form .form button:hover{width:100%;padding: 10px 0;background:#212121; border: none;font-size:18px;font-weight: bold;border-radius: 10px; color: #fff;}
+header .tradeow_form .form a.reset{text-align: right;float: right;padding: 0px 0px 0px 0px; color: #0cb24d;}
+.products{width: 100%; float: left;}
+h2 .head{display: inline-block; position: relative;text-transform: uppercase;}
+h2 span{display: block;}
+.head::before{content: ""; border:2px solid #0cb24d;position: absolute;
+width: 40px;text-decoration: line-through;top: 13px;left: -60px;}
+.head::after{content: ""; border:2px solid #0cb24d;position: absolute;
+width: 40px;text-decoration: line-through;top: 13px;right: -60px; }
+
+
+
+/*******************Product section Starts*********************************/
+
+.products{width: 100%; float:left; margin-top:35px;}
+.products h2{padding-top:15px; padding-bottom:35px;}
+.box{min-height: 260px; padding: 38px 15px 15px 15px; background: #fff;-webkit-box-shadow: 0px 0px 16px 0px rgba(224,224,224,1);-moz-box-shadow: 0px 0px 16px 0px rgba(224,224,224,1); box-shadow: 0px 0px 16px 0px rgba(224,224,224,1); border-radius: 5px; margin-right:4%; width:30%; margin-bottom:5%; box-sizing:border-box; position:relative;}
+
+.platfromsec-box .box{margin-right:3%;}
+
+.box p{padding-top:35px;}
+.box-icons{position:absolute; top:19px; right:12px;}
+
+/*******************Platform section Starts*********************************/
+
+.platfom-sec{ background-color:#0cb24d;font-family: 'Lato', sans-serif;  text-align:right; margin-top:55px;}
+.platfromsec-box{ padding-bottom:55px; overflow:hidden;}
+
+.platfom-sec .head{color:#ffffff; text-transform:none;}
+.platfom-sec h2 span{color:#ffffff;}
+.platfom-sec .head::before{border:2px solid #ffffff;}
+.platfom-sec .head::after{border:2px solid #ffffff;}
+.platfromsec-box{width:88%; margin:0 auto;}
+.platfromsec-box .box:nth-child(1){margin-left:21px;}
+.onebox{background:url(../images/01.png) center center no-repeat;}
+.onebox.two{background:url(../images/02.png) center center no-repeat;}
+.onebox.three{background:url(../images/03.png) center center no-repeat;}
+.platfom-sec h3{font-weight:bold; font-size:26px;text-transform:none;color:#212529; line-height:30px;}
+.platfom-sec p{font-size:16px;text-transform:none; padding-top:0px;}
+.trdsteps{display:flex; justify-content:center; align-items:center; height:200px;}
+.platfom-sec .box{box-shadow:0px 0px 16px 0px rgba(75,73,73,1);}
+
+
+/*******************Testimonial section Starts*********************************/
+
+.carousel{min-height:170px !important;}
+.testimonial_subtitle{
+    color: #0aaa7a;
+    font-size: 12px;
+}
+   
+ .seprator {
+    height: 2px;
+    width: 56px;
+    background-color: #0aaa7a;
+ }
+ 
+.testimonial-sec{width:100%; margin:0 auto; position:relative; margin-bottom:70px;}
+.testiname{width:100%; text-align:center;}
+.testimonial_control .btn{border-radius:0px; border:none;}
+.testibox{padding:20px;}
+.testimonial_para{width:72%; margin:0 auto; text-align:center;}
+.leftquote{position:absolute;top:0px; left:0px;}
+.rightquote{position:absolute;bottom:0px; right:0px;}
+
+.testimonial_btn{color:#4d565f; background-color:none;}
+.testimonial_btn:hover{color:#ffffff; background-color:#0cb24d;}
+
+.btn-default:active, .btn-default.active{background-color:#0cb24d !important; color:#ffffff;}
+
+.btn-default:focus, .btn-default.focus{background-color:#0cb24d !important; color:#ffffff;}
+
+/*******************Media query*********************************/
+
+@media (min-width: 768px)
+.container {
+    width: 750px !important;
+	
+}
+
+@media all and (max-width: 1024px) and (min-width: 780px) {
+	.carousel{min-height:200px !important;}
+.banner-sec{width:60%}
+.form-sec{width:40%}
+	
+ .box{padding:15px 0px;}
+ .box h3{font-size:16px; line-height:22px; }	
+ .row{margin-left:0px !important; margin-right:0px  !important;}
+ 
+ .testimonial-sec{width:100%;}
+ header .tradeow_form .formStyle{padding:15px 20px; font-size:13px;}
+ .tradeow_form h1{margin-top:8px;}
+ header .tradeow_form .form button{font-size:16px;}
+ header .tradeow_form .form{min-height:580px;}
+ header .tradeow_form{min-height:640px;}
+ .banner-sec .banner .bannerimg{min-height:640px;}
+ 
+ 	.leftquote, .rightquote {
+    display: block;
+}
+ 
+ .platfromsec-box{width:94%;}
+ 
+}
+
+@media all and (max-width: 767px) and (min-width: 640px) {
+ 
+}
+
+@media all and (max-width: 768px){
+	.carousel{min-height:210px !important;}
+	.logo{display:none;}
+	.platfromsec-box .box{margin-bottom:8%;}
+  .platfom-sec{text-align:center;}
+  .platfom-sec h3{font-size:30px; line-height:36px;}
+  .trdsteps{height:140px; padding-top:25px;}
+.trdsteps.scnd{height:200px; padding-top:30px;}
+.onebox{padding:10px 0px;}
+
+	.box{width:100%;}
+	.banner-sec{display:none;}
+	.banner-secTab{display:block;}
+	.row{margin-left:0px !important; margin-right:0px  !important;}
+  .platfromsec-box{width:94%; margin:0 auto;}
+  .rightquote{position:absolute;bottom:70px;}
+  
+.moblogo .bannerimg{display:block !important;}
+
+.footlogo{width:50%;}
+
+ .platfromsec-box .box:nth-child(1){margin-left:0px;}
+ 
+ 
+}
+
+@media all and (max-width: 480px) and (min-width: 425px)
+  {
+	  
+.products h2{font-size:17px; line-height:28px; padding-top:0px; margin:0px;}
+.tts h2{padding-bottom:12px;}
+h3{font-size:18px; line-height:28px;}
+
+ .tradeow_form h1{margin-top:8px;}
+ header .tradeow_form .form button{font-size:16px;}
+ header .tradeow_form .form{min-height:525px;}
+ header .tradeow_form{min-height:525px;}
+
+header .tradeow_form .formStyle{font-size:15px; padding:12px 20px;}
+header .tradeow_form h1{font-size:25px; line-height:40px;}
+header .tradeow_form .form button{font-size:13px;}
+header .tradeow_form .form button:hover{font-size:13px;}
+.logo{display:none;}
+	  
+	  
+	  header .banner .logo{position: absolute;
+    top: 8px;
+    left: -5px;}
+.banner-sec{display:none;}
+.banner-secTab{display:block;}
+
+.platfromsec-box{width:90%;}
+	
+.platfom-sec{text-align:center;}
+.platfromsec-box{width:90%; margin:0 auto;}
+.trdsteps{height:140px; padding-top:25px;}
+.trdsteps.scnd{height:200px; padding-top:30px;}
+.onebox{padding:10px 0px;}
+.leftquote, .rightquote{display:none;}
+ 
+.testimonial-sec p{font-size:14px;}
+ 
+.products h2{font-size:16px; line-height:25px;}
+.platfom-sec h3{font-size:25px; line-height:30px;}
+
+.testimonial_para{width:100%; margin:0 auto; text-align:center;}
+ 
+
+.leftquote, .rightquote {
+    display: none;
+}
+
+.testimonial_para {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ 	.socialIcon{width:100% !important; margin-top:15px !important; padding:0px; display:flex; justify-content:left;}
+ 
+}
+
+@media all and (max-width: 375px) and (min-width: 326px) {
+	
+.products h2{font-size:17px; line-height:28px; padding-top:0px; margin:0px;}
+ h3{font-size:18px; line-height:28px;}
+
+header .tradeow_form .formStyle{font-size:13px; padding:10px 20px;}
+header .tradeow_form h1{font-size:22px; line-height:35px;}
+header .tradeow_form .form button{font-size:13px;}
+header .tradeow_form .form button:hover{font-size:13px;}
+.logo{display:none;}
+
+
+.platfom-sec h2{font-size:15px;}
+.platfom-sec span{font-size:15px;}
+.platfom-sec h3{font-size:22px;}
+
+.banner-sec{display:none;}
+.banner-secTab{display:block;}
+ 
+.platfom-sec h2{font-size:18px;}
+.platfom-sec h3{font-size:22px;}
+
+.testibox{padding:0px;}
+
+.testimonial_para {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.leftquote, .rightquote {
+    display: none;
+}
+
+header .banner .logo{position: absolute;
+    top: 8px;
+    left: -5px;}
+	
+	.platfromsec-box{width:90%;}
+ 
+	
+.testiname{width:100%;}
+header .tradeow_form .formStyle{padding:15px 20px; font-size:13px;}
+ .tradeow_form h1{margin-top:8px;}
+ header .tradeow_form .form button{font-size:16px;}
+ header .tradeow_form .form{min-height:520px;}
+ header .tradeow_form{min-height:520px;}
+ 
+ header .tradeow_form .form button{font-size:13px;}
+ header .tradeow_form .form button:hover{font-size:13px;}
+ header .tradeow_form h1{font-size:17px; line-height:33px;}
+ 
+ .socialIcon{width:100% !important; margin-top:15px !important; padding:0px; display:flex; justify-content:left;}
+
+}
+
+@media all and (max-width: 325px) and (min-width: 320px) {
+	.carousel{min-height:210px !important;}
+	
+.banner-sec{display:none;}
+.banner-secTab{display:block;}
+
+.testimonial_para {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.platfromsec-box{width:90%;}
+
+.platfom-sec h2{font-size:15px;}
+.platfom-sec span{font-size:15px;}
+.platfom-sec h3{font-size:22px;}
+.leftquote, .rightquote {
+    display: none;
+}
+  .bannerimg{display:block;}
+	
+	.testiname {
+    width: 100%;
+    text-align: center;
+}
+	.testibox{padding:20px 0px 20px 0px;}
+	.testimonial_para{width:100%; margin:0 auto; text-align:center;}
+	header .banner .logo{position: absolute;
+    top: 8px;
+    left: -5px;}
+	
+	
+header .tradeow_form .form{min-height:560px;}
+header .tradeow_form{min-height:625px;}
+
+.logo{display:none;}
+h3{font-size:15px;line-height:23px;}
+
+.products h2{font-size:15px; line-height:26px;}
+.tts h2{padding:0px;}
+header .tradeow_form .formStyle{font-size:13px; padding:10px 20px;}
+header .tradeow_form h1{font-size:22px; line-height:35px;}
+header .tradeow_form .form button{font-size:13px;}
+header .tradeow_form .form button:hover{font-size:13px;}
+
+
+header .banner .logo{position: absolute;
+    top: 8px;
+    left: -5px;}
+	
+	.socialIcon{width:100% !important; margin-top:15px !important; padding:0px; display:flex; justify-content:left;}
+	
+	}
+	
+	
+#return-to-top {
+
+    position: fixed;
+
+    bottom: 20px;
+
+    right: 20px;
+
+    background: #0cb24d !important;
+
+    display: none;
+
+    width: 30px;
+
+    height: 30px;
+
+    color: #ffffff !important;
+
+    text-decoration: none;
+ 
+
+    border-radius: 35px;
+  transition: all 0.3s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -webkit-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
+
+}
+
+#return-to-top i{ position:absolute; top:6px; left:9px;
+ transition: all 1s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -webkit-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;}
+
+.fa-arrow-up:before{}
+	
+	
+ /******** Footer Section Starts********/
+#footer{
+	background-color: #31333a;
+	padding: 60px 0 50px 0;
+}
+#footer p{
+	font-size: 12px;
+	font-weight: 400;
+	color: #ffffff;
+	padding: 0 0 0px 0;
+	line-height:18px !important;
+}
+
+.socialIcon{margin:0 auto;width:auto; width:50%;}
+
+.socialIcon ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.socialIcon ul li{
+	display: inline;
+	padding-left: 10px;
+}
+.socialIcon ul li a{
+ 
+	border-radius: 100px;
+	width: 47px;
+	height: 47px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+}
+.facebook{
+	color: #3c5a9a;
+	font-size:25px;
+}
+
+.twitter i{color: #2daae2; font-size:25px;}
+
+.facebook i, .twitter i{ margin:0;}
+
+.facebook:hover{
+	background-color: #3c5a9a;
+	color: #ffffff;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.twitter{
+	color: #ffffff;
+	background-color: #2daae2;
+}
+.twitter:hover{
+		color: #ffffff;
+	background-color: #2daae2;
+	color: #ffffff;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.googleplus{
+	color: #dc4c41;
+}
+.googleplus:hover{
+	background-color: #dc4c41;
+	color: #ffffff;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+/* Bottom To Top Button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: darkslategrey;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+}
+#myBtn:hover {
+  background-color: grey;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+/******** Footer Section Ends********/
